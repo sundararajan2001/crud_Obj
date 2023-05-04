@@ -12,6 +12,7 @@ class Users extends Model {
             required: ['email'],
             properties: {
                 id: { type: 'integer' },
+                name: { type: 'string' },
                 email: { type: 'string' },
                 password: { type: 'string' },
             }
